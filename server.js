@@ -1,24 +1,24 @@
-var dbd = require("dbd.js")
-var fs = require("fs")
+var dbd = require("dbd.js");
+var fs = require("fs");
 var bot = new dbd.Bot({
-token: process.env.BOT_TOKEN, 
-prefix: "$getServerVar"
-})
+  token: process.env.BOT_TOKEN,
+  prefix: "$getServerVar"
+});
 
-bot.onMessage()
-bot.onLeave()
-bot.onJoined()
+bot.onMessage();
+bot.onLeave();
+bot.onJoined();
 
-var reader = fs.readdirSync(`./commands`).filter(file => file.endsWith(".js"))
-for(const file of reader) {
-const command = require(`./commands/${file}`)
-bot.command({
- name: command.name,
- code: command.code
-})
+var reader = fs.readdirSync(`./commands`).filter(file => file.endsWith(".js"));
+for (const file of reader) {
+  const command = require(`./commands/${file}`);
+  bot.command({
+    name: command.name,
+    code: command.code
+  });
 }
 bot.status({
-  text: "s.help",
+  text: "s.help | Ver. 1.0 Beta",
   type: "PLAYING",
   time: 300
 });
@@ -46,8 +46,8 @@ bot.variables({
   money: "500",
   bw: "False",
   search: "",
- voteaccess: "False",
- apikey: process.env.DBLTOKEN
+  voteaccess: "False",
+  apikey: process.env.DBLTOKEN
 });
 
 bot.joinCommand({
@@ -55,7 +55,7 @@ bot.joinCommand({
   code: `$image[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;.
 webp;.png;1]?size=2048&middle=Welcome&name=$replaceText[$replaceText[$username[$authorID]#$discriminator[$authorID];#;%23;-1]; ;%20;-1]&bottom=$replaceText[We are now $membersCount members; ;%20;-1]&background=https://cdn.discordapp.com/attachments/789656208276848682/798106281189572645/default11.png&text=%23ffffff&avatarborder=%23FFFFFF&avatarbg=%23FF28b3]
 $suppressErrors`
-})
+});
 
 bot.leaveCommand({
   channel: "$getServerVar[goodbye]",
@@ -74,4 +74,3 @@ $description[$username was caught attempting to rob $username[mentioned[1]] and 
 $author[$username;$authorAvatar]
 `
 });
-
