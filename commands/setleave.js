@@ -6,4 +6,4 @@ $footer[Setted by $username[$authorID]#$discriminator[$authorID]]
 $onlyPerms[manageserver;You need manage server permissions to set this!]
 $color[fffff1]
 $addTimestamp`
-});
+};

@@ -1,4 +1,4 @@
-module.exports{
+module.exports = {
   name: "covid19",
   code: `$title[Covid On $message]
 
@@ -9,4 +9,4 @@ $color[$random[111111;999999]]
 $footer[Covid Stats ]
 
 $addTimestamp`
-}
+};
