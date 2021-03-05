@@ -160,16 +160,16 @@ $elseif[$message[1]==roulette]
 Note: This Command is under development so it might not work.\`]
  $endelseIf
 $elseif[$message[1]==pussy]
- $addField[pussy;\`Want some random pic and gif of ||p**sy||? Usage: ||s.p**sy||\`]
+ $addField[pussy;\`Want some random pic and gif of pussy? Usage: s.pussy\`]
  $endelseIf
 $elseif[$message[1]==boob]
- $addField[b**b;\`Want some random pic and gif of ||boobs||? Usage: ||s.boob||\`]
+ $addField[b**b;\`Want some random pic and gif of boobs? Usage: s.boob\`]
  $endelseIf
 $elseif[$message[1]==porn]
- $addField[porn;\`Want some random pic and gif of ||p**n||? Usage: ||s.porn||\`]
+ $addField[porn;\`Want some random pic and gif of porn? Usage: s.porn\`]
  $endelseIf
 $elseif[$message[1]==ass]
- $addField[ass;\`Want some random pic and gif of ||ass||? Usage: ||s.ass||\`]
+ $addField[ass;\`Want some random pic and gif of ass? Usage: s.ass\`]
  $endelseIf
 $elseif[$message[1]==hug]
  $addField[hug;\`Want to give hug to someone? Usage: s.hug <user>\`]
