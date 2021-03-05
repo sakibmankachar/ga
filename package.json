@@ -1,0 +1,17 @@
+{
+  "name": "sak-bot",
+  "version": "1.0b",
+  "description": "A discord bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dbd.js": "^2.1.1"
+  }
+}
