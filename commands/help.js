@@ -1,6 +1,6 @@
 module.exports = {
- name: "help",
- code: `
+  name: "help",
+  code: `
  $color[RED]
  $thumbnail[$userAvatar[$clientID]]
  $if[$message[1]==]
@@ -19,8 +19,8 @@ Available Command list:
 🗨️**Misc**
 😂 **Fun**
 ✔️**Extra**
-***If you need any support or advance help. Then you could join my official discord server.
-(.....) ***
+***If you need any support or advance help. Then you could join my official discord server.***
+https://discord.gg/96BqdnWvh8
 ;yes]
 $elseif[$message[1]==Leveling and Ranking]
  $author[$userTag[$clientID];$userAvatar[$clientID]]
@@ -191,4 +191,4 @@ $elseif[$message[1]==pat]
  $endelseIf
  $endif
 `
-}
+};
