@@ -19,9 +19,10 @@ Available Command list:
 🗨️**Misc**
 😂 **Fun**
 ✔️**Extra**
-***If you need any support or advance help. Then you could join my official discord server. [Click Here](.....) ***
+***If you need any support or advance help. Then you could join my official discord server.
+(.....) ***
 ;yes]
- $elseif[$message[1]==Leveling and Ranking]
+$elseif[$message[1]==Leveling and Ranking]
  $author[$userTag[$clientID];$userAvatar[$clientID]]
  $addField[⬆️Leveling and Ranking;\`rank, setrankmsg, resetrank, setrank\`]
  $endelseIf
