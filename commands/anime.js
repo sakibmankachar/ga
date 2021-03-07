@@ -1,5 +1,3 @@
-//ANIME INFO
-
 module.exports = {
   name: "anime",
 
@@ -9,29 +7,29 @@ module.exports = {
 
   code: `
 
-$title[$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.titles.romaji;] / $jsonRequest[https://api.avux.ga/animesearch?text=$message;text.titles.japanese;] ]
+$title[$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.titles.romaji;] / $jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.titles.japanese;] ]
 
 $description[
 
 📅 Published\`\`\`
 
-$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.startDate;] - $jsonRequest[https://api.avux.ga/animesearch?text=$message;text.endDate;]\`\`\`
+$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.startDate;] - $jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.endDate;]\`\`\`
 
 📖 Episode\`\`\`
 
-$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.episodeCount;] Episode\`\`\`
+$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.episodeCount;] Episode\`\`\`
 
 ⭐ Rating\`\`\`
 
-$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.averageRating;]\`\`\`
+$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.averageRating;]\`\`\`
 
 🏆 Popularity Rank\`\`\`
 
-$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.popularityRank;]\`\`\`
+$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.popularityRank;]\`\`\`
 
 📜 Synopsis\`\`\`
 
-$jsonRequest[https://api.avux.ga/animesearch?text=$message;text.synopsis;]\`\`\`
+$jsonRequest[https://api.willz.repl.co/anime/search?text=$message;text.synopsis;]\`\`\`
 
 ]
 
