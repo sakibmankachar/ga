@@ -1,7 +1,8 @@
 module.exports = {
   name: "pussy",
-  code: `$onlyIf[$getServerVar[voteaccess]==False;
+  code: `$onlyIf[$getgobalUserVar[voteaccess]==False;
 ❌You have to vote Me to access This Command.
+https://top.gg/bot/$clientID/vote
 After Voting type s.voteaccess]
 $onlyNSFW[❌This command can only be used in the NSFW channel]
 $description[**Here Some Pussy From Me**]

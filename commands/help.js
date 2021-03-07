@@ -206,6 +206,79 @@ $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 https://discord.gg/96BqdnWvh8]
 $endelseif
+ $elseif[$message[1]==leveling and ranking]
+
+ $author[$userTag[$clientID];$userAvatar[$clientID]]
+
+ $addField[⬆️Leveling and Ranking;\`rank, setrankmsg, resetrank, setrank\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==economy]
+
+ $addField[💸 Economy;\`balance, work, rob, deposit, withdraw\`]
+
+ $endelseIf
+
+$elseif[$message[1]==fun]
+
+ $addField[😂Fun;\`meme\`]
+
+ $endelseIf
+
+$elseif[$message[1]==extra]
+
+ $addField[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==automod]
+
+ $addField[⚒️ AutoMod;\`autoModon, autoModoff\`]
+
+$endelseIf
+
+ $elseif[$message[1]==misc]
+
+ $addField[🗨 Misc;\`ping, help, helproulettle, avatar\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==moderate]
+
+ $addField[🔨 Moderation;\`ban, kick, warn, unwarn, unmuted, muted, checkwarn\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==information]
+
+ $addField[📝Information;\`manga, anime\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==logs]
+
+ $addField[🗒️Logs;\`setwelcome, setleave\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==game]
+
+ $addField[🎮Game;\`rps, roulette(under development)\`]
+
+ $endelseIf
+
+ $elseif[$message[1]==nsfw]
+
+ $addField[🔞NSFW;||\`pussy, boob, ass, porn\`||]
+
+ $endelseIf
+
+ $elseif[$message[1]==action]
+
+ $addField[😀RolePlay;\`pat, smile, wave, hug, kiss, blush\`]
+
+ $endelseIf
  $endif
 `
 };

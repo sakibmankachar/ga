@@ -24,7 +24,7 @@ bot.status({
 });
 
 bot.status({
-  text: "$serverCount servers",
+  text: "$serverCount servers!",
   type: "WATCHING",
   time: 300
 });
