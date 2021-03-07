@@ -9,17 +9,17 @@ $title[⚠️ - Warning]
 
 $description[
 
-     **Warned User**
+**Warned User**
 
-     <@$mentioned[1]>
+<@$mentioned[1]>
 
-     **Warned by**
+**Warned by**
 
-     <@authorID>
+<@$authorID>
 
-     **Warn Reason**
+**Warn Reason**
 
-     $noMentionMessage]
+$noMentionMessage]
 
 $footer[Warned to $mentioned[1] by @$authorID]`
 };

@@ -279,6 +279,39 @@ $endelseIf
  $addField[😀RolePlay;\`pat, smile, wave, hug, kiss, blush\`]
 
  $endelseIf
+ $elseif[$message[1]==all]
+
+$title[Help? | Here comes Help]
+
+$addfield[⚒️**AutoMod**;\`autoModon, autoModoff\`]
+
+$addfield[🔨**Moderate**;\`ban, kick, unban, muted, unmuted, warn, unwarn, checkwarn\`]
+
+$addfield[🗒️**Logs**;\`setwelcome, setleave\`]
+
+$addfield[📝**Information**;\`anime, manga\`]
+
+$addfield[🎮**Game**;\`rps, roulette (under development)\`]
+
+$addfield[😀**RolePlay**;\`pat, blush, wave, hug, kiss\`]
+
+$addfield[🔞**NSFW**;||\`boob, pussy, ass, porn\`||]
+
+$addfield[💲**Economy**;\`work, rob, balance, deposit, withdraw\`]
+
+$addfield[⬆️**Leveling and Ranking**;\`setrank, rank, setrankmsg, resetrank\`]
+
+$addfield[🗨️**Misc**;\`ping, avatar, help, helproulettle\`]
+
+$addfield[😂**Fun**;meme]
+
+$addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
+
+$addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
+
+https://discord.gg/96BqdnWvh8]
+
+$endelseif
  $endif
 `
 };
