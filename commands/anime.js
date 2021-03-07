@@ -1,3 +1,5 @@
+//ANIME INFO
+
 module.exports = {
   name: "anime",
 
@@ -44,4 +46,4 @@ $addTimestamp
 $onlyIf[$message[1]!=;You need to put Anime name]
 
 `
-}
+};
