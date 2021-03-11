@@ -307,9 +307,47 @@ $addfield[😂**Fun**;meme]
 
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 
+$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
+
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 
 https://discord.gg/96BqdnWvh8]
+
+$endelseif
+
+$elseIf[$message[1]==type-role system]
+
+$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
+
+$endelseif
+
+$elseIf[$message[1]==setrole on]
+
+$addfield[setrole on;\`To Turn on Type-Role System Usage: s.setrole on\`]
+
+$endelseif
+
+$elseIf[$message[1]==setrole off]
+
+$addfield[setrole off;\`To Turn off Type-Role System. Usage: s.setrole off\`]
+
+$endelseif
+
+$elseIf[$message[1]==resetrole]
+
+$addfield[resetrole;\`To Reset the Type-Role uses log. Usage: s.resetrole\`]
+
+$endelseif
+
+$elseIf[$message[1]==setrole]
+
+$addfield[setrole;\`To set the Type-Role uses log. Usage: s.setrole <channel>\`]
+
+$endelseif
+
+$elseIf[$message[1]==Type-Role System]
+
+$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
 
 $endelseif
  $endif
