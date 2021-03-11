@@ -10,7 +10,7 @@ Available Command list:
 ⚒️**AutoMod**
 🔨**Moderate**
 🗒️**Logs**
-📝**Information**
+✍️**Type-Role System**
 🎮**Game**
 😀**RolePlay**
 🔞**NSFW**
@@ -43,9 +43,6 @@ $endelseIf
  $endelseIf
  $elseif[$message[1]==Moderate]
  $addField[🔨 Moderation;\`ban, kick, warn, unwarn, unmuted, muted, checkwarn\`]
- $endelseIf
- $elseif[$message[1]==Information]
- $addField[📝Information;\`manga, anime\`]
  $endelseIf
  $elseif[$message[1]==Logs]
  $addField[🗒️Logs;\`setwelcome, setleave\`]
