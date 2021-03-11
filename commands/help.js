@@ -134,12 +134,6 @@ $elseif[$message[1]==muted]
 $elseif[$message[1]==unmute]
  $addField[unmute;\`To unmute a user from a server and require manage server or administration permission. Usage: s.unmute <user>\`]
  $endelseIf
-$elseif[$message[1]==manga]
-$addField[manga;\`To get information about a manga. Usage: s.manga <manganame>\`]
- $endelseIf
-$elseif[$message[1]==anime]
- $addField[anime;\`To get information about a anime. Usage: s.anime <animename>\`]
- $endelseIf
 $elseif[$message[1]==setwelcome]
  $addField[setwelcome;\`To set a channel where I will welcome user. Usage: s.setwelcome <channel>\`]
  $endelseIf
@@ -191,7 +185,6 @@ $title[Help? | Here comes Help]
 $addfield[⚒️**AutoMod**;\`autoModon, autoModoff\`]
 $addfield[🔨**Moderate**;\`ban, kick, unban, muted, unmuted, warn, unwarn, checkwarn\`]
 $addfield[🗒️**Logs**;\`setwelcome, setleave\`]
-$addfield[📝**Information**;\`anime, manga\`]
 $addfield[🎮**Game**;\`rps, roulette (under development)\`]
 $addfield[😀**RolePlay**;\`pat, blush, wave, hug, kiss\`]
 $addfield[🔞**NSFW**;||\`boob, pussy, ass, porn\`||]
@@ -248,12 +241,6 @@ $endelseIf
 
  $endelseIf
 
- $elseif[$message[1]==information]
-
- $addField[📝Information;\`manga, anime\`]
-
- $endelseIf
-
  $elseif[$message[1]==logs]
 
  $addField[🗒️Logs;\`setwelcome, setleave\`]
@@ -286,8 +273,6 @@ $addfield[⚒️**AutoMod**;\`autoModon, autoModoff\`]
 $addfield[🔨**Moderate**;\`ban, kick, unban, muted, unmuted, warn, unwarn, checkwarn\`]
 
 $addfield[🗒️**Logs**;\`setwelcome, setleave\`]
-
-$addfield[📝**Information**;\`anime, manga\`]
 
 $addfield[🎮**Game**;\`rps, roulette (under development)\`]
 
