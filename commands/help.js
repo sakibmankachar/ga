@@ -293,7 +293,6 @@ $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 $addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
-
 https://discord.gg/96BqdnWvh8]
 
 $endelseif
