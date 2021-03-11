@@ -300,7 +300,7 @@ $endelseif
 
 $elseIf[$message[1]==type-role]
 
-$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
+$addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $endelseif
 
@@ -330,7 +330,7 @@ $endelseif
 
 $elseIf[$message[1]==Type-Role]
 
-$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
+$addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setrole on, setrole off\`]
 
 $endelseif
  $endif
