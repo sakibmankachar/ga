@@ -2,7 +2,7 @@ module.exports = {
   name: "voteaccess",
   code: `$deleteCommand
 $dm
-$setUserVar[voteaccess;True]
+$setglobalUserVar[voteaccess;True]
   $title[Vote Access]
   $description[**You have got access to vote required Commands!**]
   $footer[🎉 Congratulations]
