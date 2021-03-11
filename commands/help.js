@@ -10,7 +10,7 @@ Available Command list:
 ⚒️**AutoMod**
 🔨**Moderate**
 🗒️**Logs**
-✍️**Type-Role System**
+✍️**Type-Role**
 🎮**Game**
 😀**RolePlay**
 🔞**NSFW**
@@ -192,7 +192,7 @@ $addfield[💲**Economy**;\`work, rob, balance, deposit, withdraw\`]
 $addfield[⬆️**Leveling and Ranking**;\`setrank, rank, setrankmsg, resetrank\`]
 $addfield[🗨️**Misc**;\`ping, avatar, help, helproulettle\`]
 $addfield[😂**Fun**;\`meme\`]
-$addfield[✍️ Type-Role System;\`setroleon, setroleoff, setrolelog, resetrolelog\`]
+$addfield[✍️ Type-Role;\`setroleon, setroleoff, setrolelog, resetrolelog\`]
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 https://discord.gg/96BqdnWvh8]
@@ -290,7 +290,7 @@ $addfield[😂**Fun**;meme]
 
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 
-$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
+$addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 
@@ -298,13 +298,13 @@ https://discord.gg/96BqdnWvh8]
 
 $endelseif
 
-$elseIf[$message[1]==type-role system]
+$elseIf[$message[1]==type-role]
 
 $addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $endelseif
 
-$elseIf[$message[1]==setrole on]
+$elseIf[$message[1]==setroleon]
 
 $addfield[setrole on;\`To Turn on Type-Role System Usage: s.setroleon\`]
 
@@ -328,7 +328,7 @@ $addfield[setrole;\`To set the Type-Role uses log. Usage: s.setrole <channel>\`]
 
 $endelseif
 
-$elseIf[$message[1]==Type-Role System]
+$elseIf[$message[1]==Type-Role]
 
 $addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
 

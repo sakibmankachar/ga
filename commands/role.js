@@ -9,7 +9,7 @@ $title[Role Created]
 
 $description[**$username** just created a role **$message** and the role has given to the **$username**]
 
-$channelSendMessage[$getServerVar[rolelog];**$Username Created a Role **$message**]
+$channelSendMessage[$getServerVar[rolelog];**$Username** Created a Role **$message**]
 
 $giveRole[$authorID;$findRole[$message]]
 
