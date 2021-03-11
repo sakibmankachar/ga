@@ -1,6 +1,6 @@
 module.exports = {
   name: "boob",
-  code: `$onlyIf[$getgobalUserVar[voteaccess]==False;
+  code: `$onlyIf[$getUserVar[voteaccess]==False;
 ❌You have to vote Me to access This Command.
 https://top.gg/bot/$clientID/vote
 After Voting type s.voteaccess]
