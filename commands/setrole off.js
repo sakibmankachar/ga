@@ -1,9 +1,9 @@
 module.exports = {
-  name: "setrole off",
+  name: "setroleoff",
 
   code: `
 
-Successfully Truned off Type-Role System!
+$description[Successfully Truned off Type-Role System!]
 
 $setServerVar[role;False]`
 };

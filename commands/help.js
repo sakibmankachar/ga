@@ -307,7 +307,7 @@ $addfield[😂**Fun**;meme]
 
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 
-$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
+$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 
@@ -317,13 +317,13 @@ $endelseif
 
 $elseIf[$message[1]==type-role system]
 
-$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setrole on, setrole off\`]
+$addfield[✍️ Type-Role System;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
 $endelseif
 
 $elseIf[$message[1]==setrole on]
 
-$addfield[setrole on;\`To Turn on Type-Role System Usage: s.setrole on\`]
+$addfield[setrole on;\`To Turn on Type-Role System Usage: s.setroleon\`]
 
 $endelseif
 

@@ -47,7 +47,9 @@ bot.variables({
   bw: "False",
   search: "",
   voteaccess: "False",
-  apikey: process.env.DBLTOKEN
+  apikey: process.env.DBLTOKEN,
+  role: "False",
+  rolelog: ""
 });
 
 bot.joinCommand({
