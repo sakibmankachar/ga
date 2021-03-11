@@ -48,7 +48,7 @@ bot.variables({
   search: "",
   voteaccess: "False",
   apikey: process.env.DBLTOKEN,
-  role: "False",
+  role: "off",
   rolelog: ""
 });
 

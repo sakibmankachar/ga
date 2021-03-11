@@ -4,7 +4,7 @@ module.exports = {
   code: `
   $argsCheck[<1;❌ Please Mention a channel]
 
-$description[Successfully Setted $mentionedChannels[1] as Type-Role Logs Channel!]
+$description[Successfully Setted <#$mentionedChannels[1]> as Type-Role Logs Channel!]
 
 $setServerVar[rolelog;$mentionedChannels[1]]`
 };
