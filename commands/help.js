@@ -48,7 +48,7 @@ $endelseIf
  $addField[🗒️Logs;\`setwelcome, setleave\`]
  $endelseIf
  $elseif[$message[1]==Game]
- $addField[🎮Game;\`rps, roulette(under development)\`]
+ $addField[🎮Game;\`rps, roulette(under development), slots\`]
  $endelseIf
  $elseif[$message[1]==NSFW]
  $addField[🔞NSFW;||\`pussy, boob, ass, porn\`||]
@@ -185,7 +185,7 @@ $title[Help? | Here comes Help]
 $addfield[⚒️**AutoMod**;\`autoModon, autoModoff\`]
 $addfield[🔨**Moderate**;\`ban, kick, unban, muted, unmuted, warn, unwarn, checkwarn\`]
 $addfield[🗒️**Logs**;\`setwelcome, setleave\`]
-$addfield[🎮**Game**;\`rps, roulette (under development)\`]
+$addfield[🎮**Game**;\`rps, roulette (under development), slots\`]
 $addfield[😀**RolePlay**;\`pat, blush, wave, hug, kiss\`]
 $addfield[🔞**NSFW**;||\`boob, pussy, ass, porn\`||]
 $addfield[💲**Economy**;\`work, rob, balance, deposit, withdraw\`]
@@ -249,7 +249,7 @@ $endelseIf
 
  $elseif[$message[1]==game]
 
- $addField[🎮Game;\`rps, roulette(under development)\`]
+ $addField[🎮Game;\`rps, roulette(under development), slots\`]
 
  $endelseIf
 
@@ -274,7 +274,7 @@ $addfield[🔨**Moderate**;\`ban, kick, unban, muted, unmuted, warn, unwarn, che
 
 $addfield[🗒️**Logs**;\`setwelcome, setleave\`]
 
-$addfield[🎮**Game**;\`rps, roulette (under development)\`]
+$addfield[🎮**Game**;\`rps, roulette (under development), slots\`]
 
 $addfield[😀**RolePlay**;\`pat, blush, wave, hug, kiss\`]
 
@@ -333,6 +333,13 @@ $elseIf[$message[1]==Type-Role]
 $addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setrole on, setrole off\`]
 
 $endelseif
+
+$elseif[$message[1]==slots]
+
+$addfield[slots;\`Play a game of matching. if a thing luckily get matched (3) that means you won the game\`]
+
+$endelseif
+
  $endif
 `
 };
