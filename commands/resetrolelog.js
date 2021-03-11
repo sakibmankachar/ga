@@ -4,7 +4,7 @@ module.exports = {
   code: `
   $description[Sucessfully Reseted Type-Role Logs!]
 
-$onlyPerms[managerole;admin;❌Only Users with Admin or Manage Role Can Use This Command only]
+$onlyPerms[manageserver;admin;❌Only Users with Admin or Manage Server Can Use This Command only]
 
 $resetServerVar[rolelog]`
 };

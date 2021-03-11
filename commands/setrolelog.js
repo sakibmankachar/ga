@@ -6,7 +6,7 @@ module.exports = {
 
 $description[Successfully Setted <#$mentionedChannels[1]> as Type-Role Logs Channel!]
 
-$onlyPerms[managerole;admin;❌Only Users with Admin or Manage Role Can Use This Command only]
+$onlyPerms[manageserver;admin;❌Only Users with Admin or Manage Role Can Use This Command only]
 
 $setServerVar[rolelog;$mentionedChannels[1]]`
 };
