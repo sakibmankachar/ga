@@ -201,7 +201,8 @@ $addfield[🔞**NSFW**;||\`boob, pussy, ass, porn\`||]
 $addfield[💲**Economy**;\`work, rob, balance, deposit, withdraw\`]
 $addfield[⬆️**Leveling and Ranking**;\`setrank, rank, setrankmsg, resetrank\`]
 $addfield[🗨️**Misc**;\`ping, avatar, help, helproulettle\`]
-$addfield[😂**Fun**;meme]
+$addfield[😂**Fun**;\`meme\`]
+$addfield[✍️ Type-Role System;\`setroleon, setroleoff, setrolelog, resetrolelog\`]
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
 $addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
 https://discord.gg/96BqdnWvh8]
@@ -327,9 +328,9 @@ $addfield[setrole on;\`To Turn on Type-Role System Usage: s.setroleon\`]
 
 $endelseif
 
-$elseIf[$message[1]==setrole off]
+$elseIf[$message[1]==setroleoff]
 
-$addfield[setrole off;\`To Turn off Type-Role System. Usage: s.setrole off\`]
+$addfield[setroleoff;\`To Turn off Type-Role System. Usage: s.setroleoff\`]
 
 $endelseif
 
