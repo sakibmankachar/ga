@@ -1,7 +1,7 @@
 //automatically add emoji from using it.
 
 module.exports = {
-  name: "addemoji",
+  name: "emoji",
 
   code: `$description[Successfully added the emoji $customEmoji[$message[2]] to $serverName!]
 
