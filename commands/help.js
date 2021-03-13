@@ -33,7 +33,7 @@ $elseif[$message[1]==Fun]
  $addField[😂Fun;\`meme\`]
  $endelseIf
 $elseif[$message[1]==Extra]
- $addField[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
+ $addField[✔️Extra;\`guide, JALLOGS guide, covid19, invite,\`]
  $endelseIf
  $elseif[$message[1]==AutoMod]
  $addField[⚒️ AutoMod;\`autoModon, autoModoff\`]
@@ -219,7 +219,7 @@ $elseif[$message[1]==fun]
 
 $elseif[$message[1]==extra]
 
- $addField[✔️Extra;\`guide, JALLOGS guide, covid19, invite\`]
+ $addField[✔️Extra;\`guide, JALLOGS guide, covid19, invite, giverole\`]
 
  $endelseIf
 

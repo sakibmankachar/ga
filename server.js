@@ -26,7 +26,13 @@ bot.status({
 bot.status({
   text: "$serverCount servers!",
   type: "WATCHING",
-  time: 300
+  time: 150
+});
+
+bot.status({
+  text: "$membersCount Users!",
+  type: "WATCHING",
+  time: 150
 });
 
 bot.variables({
