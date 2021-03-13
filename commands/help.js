@@ -335,10 +335,15 @@ $endelseif
 
 $elseif[$message[1]==slots]
 
-$addfield[slots;\`Play a game of matching. if a thing luckily get matched (3) that means you won the game\`]
+$addfield[slots;\`Play a game of matching. if a thing luckily get matched (3) that means you won the game you will also get money but if you lose you will also lose some money\`]
 
 $endelseif
-
+$elseif[$message[1]==giverole]
+$addfield[giverole;\`I will make a role and I will give it to mentioned one\`]
+$endelseif
+$elseif[$message[1]==givexrole]
+$addfield[givexrole;\`I will the Mentioned user the existing role which you typed or mentioned\`]
+$endelseif
 
  $endif
 `

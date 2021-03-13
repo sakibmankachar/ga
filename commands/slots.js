@@ -13,12 +13,12 @@ $description[> $randomText[🍞;🍏;🍋;🍔;🥞] $randomText[🍔;🍏;🍞;
 
 $color[$replaceText[$replaceText[$randomText[true;false];true;ffffff];false;00ff00]]
 
-$footer[⏣  Money: $replaceText[$replaceText[$randomText[true;false];false;$sub[$getGlobalUserVar[money];200]];true;$sum[$getGlobalUserVar[money];400]]]
+$footer[⏣  Money: $replaceText[$replaceText[$randomText[true;false];false;$sub[$getUserVar[money];200]];true;$sum[$getUserVar[money];400]]]
 
 $addTimestamp
 
-$setGlobalUserVar[money;$replaceText[$replaceText[$randomText[true;false];false;$sub[$getGlobalUserVar[money];200]];true;$sum[$getGlobalUserVar[money];400]]]
+$setUserVar[money;$replaceText[$replaceText[$randomText[true;false];false;$sub[$getUserVar[money];200]];true;$sum[$getUserVar[money];400]]]
 
-$onlyIf[$getGlobalUserVar[money]>=200;You didn't have enough 200 coins to play it.] 
+$onlyIf[$getUserVar[money]>=200;You didn't have enough 200 coins to play it.] 
 `
 };
