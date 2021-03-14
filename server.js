@@ -61,8 +61,8 @@ bot.variables({
 bot.joinCommand({
   channel: "$getServerVar[welcome]",
   code: `$image[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;.
-webp;.png;1]
-$suppressErrors`
+
+webp;.png;1]?size=2048&middle=Welcome&name=$replaceText[$replaceText[$username[$authorID]#$discriminator[$authorID];#;%23;-1]; ;%20;-1]&bottom=$replaceText[We are now $membersCount members; ;%20;-1]&background=https://cdn.discordapp.com/attachments/789656208276848682/798106281189572645/default11.png&text=%23ffffff&avatarborder=%23FFFFFF&avatarbg=%23FF28b3]`
 });
 
 bot.leaveCommand({
