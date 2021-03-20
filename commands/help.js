@@ -19,8 +19,7 @@ Available Command list:
 🗨️**Misc**
 😂 **Fun**
 ✔️**Extra**
-***If you need any support or advance help. Then you could join my official discord server.***
-https://discord.gg/96BqdnWvh8
+***If you need any support or advance help. Then you could join my official discord server.*** [Click Here\\](https://discord.gg/96BqdnWvh8)
 ;yes]
  $elseif[$message[1]==Leveling and Ranking]
  $author[$userTag[$clientID];$userAvatar[$clientID]]
@@ -194,8 +193,7 @@ $addfield[🗨️**Misc**;\`ping, avatar, help, helproulettle\`]
 $addfield[😂**Fun**;\`meme\`]
 $addfield[✍️ Type-Role;\`setroleon, setroleoff, setrolelog, resetrolelog\`]
 $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite, giverole, givexrole\`]
-$addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
-https://discord.gg/96BqdnWvh8]
+$addfield[Support;**If you need any support or advance help. Then you could join my official discord server. ** [Click Here\\](https://discord.gg/96BqdnWvh8)]
 $endelseif
  $elseif[$message[1]==leveling and ranking]
 
@@ -292,8 +290,7 @@ $addfield[✔️Extra;\`guide, JALLOGS guide, covid19, invite, giverole, givexro
 
 $addfield[✍️ Type-Role;\`resetrolelog, setrolelog, setroleon, setroleoff\`]
 
-$addfield[Support;**If you need any support or advance help. Then you could join my official discord server. **
-https://discord.gg/96BqdnWvh8]
+$addfield[Support;**If you need any support or advance help. Then you could join my official discord server. ** [Click Here\\](https://discord.gg/96BqdnWvh8)]
 
 $endelseif
 
