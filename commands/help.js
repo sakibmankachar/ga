@@ -8,17 +8,29 @@ module.exports = {
  $addField[Help? | Here comes Help;to See Commandlist or command type \`s.help <Commandlist> or s.help <Command> or s.help All\`
 Available Command list:
 ⚒️**AutoMod**
+\`s.help AutoMod\`
 🔨**Moderate**
+\`s.help Moderate\`
 🗒️**Logs**
+\`s.help Logs\`
 ✍️**Type-Role**
+\`s.help Type-Role\`
 🎮**Game**
+\`s.help Game\`
 😀**RolePlay**
+\`s.help RolePlay\`
 🔞**NSFW**
+\`s.help NSFW\`
 💲**Economy**
+\`s.help Economy\`
 ⬆️**Leveling and Ranking**
+\`s.help Leveling and Ranking\`
 🗨️**Misc**
+\`s.help Misc\`
 😂 **Fun**
+\`s.help Fun\`
 ✔️**Extra**
+\`s.help Extra\`
 ***If you need any support or advance help. Then you could join my official discord server.*** [Click Here\\](https://discord.gg/96BqdnWvh8)
 ;yes]
  $elseif[$message[1]==Leveling and Ranking]
